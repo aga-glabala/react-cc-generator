@@ -1,0 +1,8 @@
+import styled from "styled-components";
+import { palette } from "styled-theme";
+
+const {componentName}StyleWrapper = styled.div`
+
+`;
+
+export { {componentName}StyleWrapper };

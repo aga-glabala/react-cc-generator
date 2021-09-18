@@ -1,0 +1,11 @@
+import React from 'react';
+import { {componentName}StyleWrapper } from './style';
+
+const {componentName} = ({}) => {  
+    return (
+      <{componentName}StyleWrapper>
+
+      </{componentName}StyleWrapper>
+  )};
+
+  export default {componentName};

@@ -1,0 +1,27 @@
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
+const with{componentName}Container = WrappedComponent => {
+
+  class {componentName} extends Component {
+
+    render() {
+      return (
+          <WrappedComponent
+            {...this.props}
+          />
+      )
+    }
+  }
+
+  return connect(
+    mapStateToProps,
+    mapDispatchToProps
+  )({componentName});
+};
+
+const mapDispatchToProps = {};
+const mapStateToProps = state => ({
+})
+
+export default with{componentName}Container;

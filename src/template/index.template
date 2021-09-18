@@ -1,0 +1,4 @@
+import {componentName}View from './{componentName}View';
+import with{componentName}Container from './with{componentName}Container';
+
+export default with{componentName}Container({componentName}View);
